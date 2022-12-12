@@ -18,11 +18,6 @@
     "lead": {
       "type": "string"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.seo"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -32,9 +27,11 @@
       ]
     },
     "logos": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.list-item-gallery"
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

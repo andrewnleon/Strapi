@@ -56,7 +56,7 @@
     "creativebrief": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.list-detail"
+      "component": "layout.features"
     }
   }
 }

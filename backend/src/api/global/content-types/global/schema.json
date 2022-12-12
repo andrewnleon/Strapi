@@ -22,6 +22,14 @@
     },
     "siteurl": {
       "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.seo"
     }
   }
 }

@@ -10,7 +10,7 @@
       "type": "string"
     },
     "desc": {
-      "type": "text"
+      "type": "string"
     },
     "list": {
       "type": "component",
