@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_list_item_descs",
+  "info": {
+    "displayName": "ListItemDesc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}
