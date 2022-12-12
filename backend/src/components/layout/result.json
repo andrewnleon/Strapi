@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_results",
+  "info": {
+    "displayName": "Result",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.list-item-action"
+    },
+    "sort": {
+      "type": "integer"
+    }
+  }
+}

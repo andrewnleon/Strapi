@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "CaseStudy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.stack-icons"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.seo"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.color-scheme"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "company"
+    },
+    "compare": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.before-after"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.features"
+    },
+    "results": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.result"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "case_studies"
+    },
+    "projects": {
+      "displayName": "projects",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.projects"
+    }
+  }
+}

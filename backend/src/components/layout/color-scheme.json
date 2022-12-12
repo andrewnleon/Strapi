@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_color_schemes",
+  "info": {
+    "displayName": "Colors",
+    "description": "",
+    "icon": "eye-dropper"
+  },
+  "options": {},
+  "attributes": {
+    "primary": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "secondary": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    },
+    "tertiary": {
+      "type": "customField",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awards": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "frontendxp": {
+      "type": "integer"
+    },
+    "backendxp": {
+      "type": "integer"
+    },
+    "awardcount": {
+      "type": "integer"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.seo"
+    },
+    "education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.list-item-gallery"
+    },
+    "Introduction": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "creativebrief": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.list-detail"
+    }
+  }
+}
