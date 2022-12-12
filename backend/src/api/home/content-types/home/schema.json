@@ -30,6 +30,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.list-item-gallery"
     }
   }
 }
