@@ -45,11 +45,6 @@
       "type": "uid",
       "required": true
     },
-    "colors": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.color-scheme"
-    },
     "reviews": {
       "type": "relation",
       "relation": "oneToMany",

@@ -8,16 +8,13 @@
   "options": {},
   "attributes": {
     "primary": {
-      "type": "customField",
-      "customField": "plugin::color-picker.color"
+      "type": "text"
     },
     "secondary": {
-      "type": "customField",
-      "customField": "plugin::color-picker.color"
+      "type": "text"
     },
     "tertiary": {
-      "type": "customField",
-      "customField": "plugin::color-picker.color"
+      "type": "text"
     }
   }
 }
