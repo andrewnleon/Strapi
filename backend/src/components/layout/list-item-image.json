@@ -1,7 +1,8 @@
 {
   "collectionName": "components_layout_list_item_images",
   "info": {
-    "displayName": "ListItemImage"
+    "displayName": "ListItemImage",
+    "description": ""
   },
   "options": {},
   "attributes": {

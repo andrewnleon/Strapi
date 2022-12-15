@@ -1,3 +1,20 @@
+import path from "path";
+
+// export default ({ env }) => ({
+//   connection: {
+//     client: "sqlite",
+//     connection: {
+//       filename: path.join(
+//         __dirname,
+//         "..",
+//         "..",
+//         env("DATABASE_FILENAME", ".tmp/data.db")
+//       ),
+//     },
+//     useNullAsDefault: true,
+//   },
+// });
+
 module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
@@ -7,11 +24,7 @@ module.exports = ({ env }) => ({
       database: env('DATABASE_NAME', 'strapi'),
       user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', 'local!'),
-      schema: env('DATABASE_SCHEMA', 'public'), // Not required
-      ssl: {
-        rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-      },
+      ssl: env.bool('DATABASE_SSL', false),
     },
-    debug: false,
   },
 });

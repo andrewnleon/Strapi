@@ -11,7 +11,6 @@ module.exports = createCoreController(
   ({ strapi }) => ({
     async findOne(ctx) {
       const { slug } = ctx.params;
-
       const query = {
         filters: { slug },
         ...ctx.query,
@@ -23,7 +22,6 @@ module.exports = createCoreController(
       );
 
       const sanitizedEntity = await this.sanitizeOutput(post);
-
       return this.transformResponse(sanitizedEntity[0]);
     },
   })

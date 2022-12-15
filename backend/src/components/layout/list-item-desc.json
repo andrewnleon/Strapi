@@ -1,7 +1,8 @@
 {
   "collectionName": "components_layout_list_item_descs",
   "info": {
-    "displayName": "ListItemDesc"
+    "displayName": "ListItemDesc",
+    "description": ""
   },
   "options": {},
   "attributes": {
