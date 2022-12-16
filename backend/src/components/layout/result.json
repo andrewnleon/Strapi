@@ -16,9 +16,6 @@
       "type": "component",
       "repeatable": true,
       "component": "layout.list-item-action"
-    },
-    "sort": {
-      "type": "integer"
     }
   }
 }

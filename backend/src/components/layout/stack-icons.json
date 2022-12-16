@@ -35,8 +35,17 @@
       "type": "boolean",
       "default": false
     },
-    "sort": {
-      "type": "integer"
+    "dreamweaver": {
+      "type": "boolean",
+      "default": false
+    },
+    "axure": {
+      "type": "boolean",
+      "default": false
+    },
+    "jquery": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

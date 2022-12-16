@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- *  post controller
+ *  Case Study controller
  */
 
 const { createCoreController } = require("@strapi/strapi").factories;
@@ -13,15 +13,33 @@ module.exports = createCoreController(
       const { slug } = ctx.params;
       const query = {
         filters: { slug },
-        ...ctx.query,
+        // sort: 'fieldA:asc',
+        populate:[
+          'cover',
+          'thumbnail',
+          'title',
+          'slug',
+          'compare',
+          'theme.color',
+          'categories',
+          'stack',
+          'results',
+          'results.list',
+          'features.list',
+          'projects.banner',
+          'projects.gallery',
+          'projects.featurelist',
+          'seo'
+        ],
+        ...ctx.query
       };
 
-      const post = await strapi.entityService.findMany(
+      const casestudy = await strapi.entityService.findMany(
         "api::case-study.case-study",
         query
       );
 
-      const sanitizedEntity = await this.sanitizeOutput(post);
+      const sanitizedEntity = await this.sanitizeOutput(casestudy);
       return this.transformResponse(sanitizedEntity[0]);
     },
   })

@@ -17,9 +17,6 @@
     "desc": {
       "type": "text"
     },
-    "sort": {
-      "type": "integer"
-    },
     "featurelist": {
       "type": "component",
       "repeatable": true,

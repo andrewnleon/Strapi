@@ -35,9 +35,6 @@
       "type": "component",
       "repeatable": true,
       "component": "layout.list"
-    },
-    "sort": {
-      "type": "integer"
     }
   }
 }
