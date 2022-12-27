@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-strapi",
+  "name": "andrewnl-portfolio-api",
   "private": true,
   "version": "4.5.4",
-  "description": "A Strapi application",
+  "description": "Andrew's Portfolio Api",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -22,7 +22,7 @@
     "better-sqlite3": "^8.0.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Andrew Leonberger"
   },
   "strapi": {
     "uuid": "9ac45c97-b99a-4ff7-8c30-2e8ace5244fc"

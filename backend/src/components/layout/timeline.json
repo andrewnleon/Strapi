@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_timelines",
+  "info": {
+    "displayName": "Timeline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}
