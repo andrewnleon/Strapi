@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_list_details",
+  "info": {
+    "displayName": "ListDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

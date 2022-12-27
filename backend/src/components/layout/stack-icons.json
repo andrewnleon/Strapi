@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_technologies_stack_icons",
+  "info": {
+    "displayName": "stack",
+    "description": "",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "css": {
+      "type": "boolean",
+      "default": false
+    },
+    "csharp": {
+      "type": "boolean",
+      "default": false
+    },
+    "react": {
+      "type": "boolean",
+      "default": false
+    },
+    "azure": {
+      "type": "boolean",
+      "default": false
+    },
+    "gulp": {
+      "type": "boolean",
+      "default": false
+    },
+    "sql": {
+      "type": "boolean",
+      "default": false
+    },
+    "wordpress": {
+      "type": "boolean",
+      "default": false
+    },
+    "dreamweaver": {
+      "type": "boolean",
+      "default": false
+    },
+    "axure": {
+      "type": "boolean",
+      "default": false
+    },
+    "jquery": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

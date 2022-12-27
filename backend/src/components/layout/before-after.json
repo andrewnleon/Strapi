@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_before_afters",
+  "info": {
+    "displayName": "Compare",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "before": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "after": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "beforedesc": {
+      "type": "string"
+    },
+    "afterdesc": {
+      "type": "string"
+    }
+  }
+}

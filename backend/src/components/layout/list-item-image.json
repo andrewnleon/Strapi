@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_list_item_images",
+  "info": {
+    "displayName": "ListItemImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

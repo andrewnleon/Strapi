@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_layout_colors",
+  "info": {
+    "displayName": "colors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.list-item-desc"
+    }
+  }
+}
