@@ -1,7 +1,7 @@
 {
   "name": "andrewnl-portfolio-api",
   "private": true,
-  "version": "4.5.4",
+  "version": "4.5.5",
   "description": "Andrew's Portfolio Api",
   "scripts": {
     "develop": "strapi develop",
