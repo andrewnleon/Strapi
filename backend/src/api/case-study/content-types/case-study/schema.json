@@ -87,7 +87,7 @@
       "type": "integer"
     },
     "desc": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
