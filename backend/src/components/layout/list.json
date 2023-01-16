@@ -8,6 +8,9 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }
