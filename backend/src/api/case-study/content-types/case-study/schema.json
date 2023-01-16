@@ -85,6 +85,9 @@
     },
     "recentsort": {
       "type": "integer"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }
