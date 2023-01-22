@@ -18,9 +18,6 @@
     "lead": {
       "type": "string"
     },
-    "jobtitle": {
-      "type": "string"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
